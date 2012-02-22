@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ODROID Robot</string>
+
+    <!--  BluetoothChat -->
+    <string name="send">Senden</string>
+    <string name="not_connected">Sie sind nicht mit einem Gerät verbunden</string>
+    <string name="bt_not_enabled_leaving">Bluetooth wurde nicht aktiviert.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">verbunden: </string>
+    <string name="title_not_connected">nicht angeschlossen</string>
+    <string name="connected_to">Verbunden mit </string>
+    <string name="unable_connect">Kann Gerät anschließen</string>
+    <string name="connection_lost">Geräte-Verbindung wurde verloren</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">Scannen nach Geräten...</string>
+    <string name="select_device">Wählen Sie ein Gerät zu verbinden</string>
+    <string name="none_paired">Keine Geräte gekoppelt wurden</string>
+    <string name="none_found">Keine Geräte gefunden</string>
+    <string name="title_paired_devices">Gerätepaare</string>
+    <string name="title_other_devices">Weitere verfügbare Geräte</string>
+    <string name="button_scan">Scannen nach Geräten</string>
+
+    <!-- Options Menu -->
+    <string name="connect">Schließen Sie das Gerät</string>
+    <string name="disconnect">Trennen Sie das Gerät</string>
+    <string name="use_accelerometer">verwenden Sie Beschleunigungsmesser</string>
+    <string name="use_accelerometer_cancel">Stoppen Sie verwenden Beschleunigungsmesser</string>
+    <string name="exit">Ausfahrt</string>
+    <string name="speech">Rede</string>
+    <string name="speech_cancel">Rede: abbrechen</string>
+    <string name="command_history">Befehlsverlauf</string>
+    <string name="voice_commands">Sprachbefehle</string>
+    <string name="settings">Einstellungen</string>
+    
+    <!-- Main View -->
+    <string name="battery">Batterie</string>
+    <string name="meter">meter</string>
+    <string name="feet">füße</string>
+    <string name="software_version">Software Version : </string>
+    <string name="firmware_version">Firmware Version : </string>
+    
+    <!-- Settings -->
+    <string name="temperature">Temperatur</string>
+    <string name="temperature_alarm">Temperatur-Alarm</string>
+    <string name="temperature_max">Max temperatur</string>
+    <string name="temperature_min">Min temperatur</string>
+    <string name="altitude">Höhe</string>
+    <string name="altitude_alarm">Höhenalarm</string>
+    <string name="altitude_max">Max höhe</string>
+    <string name="pressure">Druck</string>
+    <string name="pressure_alarm">Druck Alarm</string>
+    <string name="pressure_max">Max. Druck</string>
+</resources>

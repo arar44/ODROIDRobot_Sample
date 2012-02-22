@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ODROID Robot</string>
+
+    <!--  BluetoothChat -->
+    <string name="send">보내기</string>
+    <string name="not_connected">장치가 연결되지 않았습니다.</string>
+    <string name="bt_not_enabled_leaving">블루투스가 활성화되지 않았습니다.</string>
+    <string name="title_connecting">연결 중...</string>
+    <string name="title_connected_to">연결됨: </string>
+    <string name="title_not_connected">연결되지 않았습니다.</string>
+    <string name="connected_to">연결</string>
+    <string name="unable_connect">장치를 연결할 수 없습니다</string>
+    <string name="connection_lost">장치 연결이 끊어졌습니다</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">장치를 스캔 중...</string>
+    <string name="select_device">연결하는 장치를 선택</string>
+    <string name="none_paired">페이된 장치가 없습니다.</string>
+    <string name="none_found">아무 장치가 없습니다</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">기타 사용 가능한 장치</string>
+    <string name="button_scan">장치 스캔</string>
+
+    <!-- Options Menu -->
+    <string name="connect">장치 연결</string>
+    <string name="disconnect">장치 분리</string>
+    <string name="use_accelerometer">가속계 사용</string>
+    <string name="use_accelerometer_cancel">가속도계 사용 중지</string>
+    <string name="exit">종료</string>
+    <string name="speech">음성 명령</string>
+    <string name="speech_cancel">음성 명령 취소</string>
+    <string name="command_history">명령 기록</string>
+    <string name="voice_commands">음성 명령어</string>
+    <string name="settings">설정</string>
+    
+    <!-- Main View -->
+    <string name="battery">배터리</string>
+    <string name="meter">미터</string>
+    <string name="feet">피트</string>
+    <string name="software_version">소프트웨어 버전 : </string>
+    <string name="firmware_version">펌웨어 버전 : </string>
+    
+    <!-- Settings -->
+    <string name="temperature">온도</string>
+    <string name="temperature_alarm">온도 경보</string>
+    <string name="temperature_max">최대 온도</string>
+    <string name="temperature_min">최소 온도</string>
+    <string name="altitude">고도</string>
+    <string name="altitude_alarm">고도 경보</string>
+    <string name="altitude_max">최대 고도</string>
+    <string name="pressure">기압</string>
+    <string name="pressure_alarm">기압 경보</string>
+    <string name="pressure_max">최대 기압</string>
+</resources>

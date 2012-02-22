@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ODROID Robot</string>
+
+    <!--  BluetoothChat -->
+    <string name="send">送信</string>
+    <string name="not_connected">あなたは、デバイスに接続されていません</string>
+    <string name="bt_not_enabled_leaving">Bluetoothは有効になりませんでした。</string>
+    <string name="title_connecting">接続...</string>
+    <string name="title_connected_to">接続： </string>
+    <string name="title_not_connected">接続していない</string>
+    <string name="connected_to">に接続 </string>
+    <string name="unable_connect">デバイスを接続できません</string>
+    <string name="connection_lost">デバイスの接続が失われた</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">デバイスをスキャン中...</string>
+    <string name="select_device">接続するデバイスを選択します。</string>
+    <string name="none_paired">ないデバイスがペアリングされていない</string>
+    <string name="none_found">ないデバイスが見つかりませんでした</string>
+    <string name="title_paired_devices">ペアリング済みデバイス</string>
+    <string name="title_other_devices">他の使用可能なデバイス</string>
+    <string name="button_scan">デバイスをスキャン</string>
+
+    <!-- Options Menu -->
+    <string name="connect">デバイスを接続する</string>
+    <string name="disconnect">デバイスを取り外します</string>
+    <string name="use_accelerometer">加速度計を使用してください</string>
+    <string name="use_accelerometer_cancel">加速度計を使用停止</string>
+    <string name="exit">終了</string>
+    <string name="speech">音声</string>
+    <string name="speech_cancel">スピーチ：キャンセル</string>
+    <string name="command_history">コマンド履歴</string>
+    <string name="voice_commands">ボイスコマンド</string> 
+    <string name="settings">設定</string>   
+    
+    <!-- Main View -->
+    <string name="battery">バッテリー</string>
+    <string name="meter">メータ</string>
+    <string name="feet">足</string>
+    <string name="software_version">ソフトウェアのバージョン ： </string>
+    <string name="firmware_version">ファームウェアバージョン ： </string>
+    
+    <!-- Settings -->
+    <string name="temperature">温度</string>
+    <string name="temperature_alarm">温度アラーム</string>
+    <string name="temperature_max">最大温度</string>
+    <string name="temperature_min">最小温度</string>
+    <string name="altitude">高度</string>
+    <string name="altitude_alarm">高度アラーム</string>
+    <string name="altitude_max">最大高度</string>
+    <string name="pressure">圧</string>
+    <string name="pressure_alarm">圧力警報</string>
+    <string name="pressure_max">最大圧力</string>
+</resources>

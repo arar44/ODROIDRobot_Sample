@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ODROID Robot</string>
+
+    <!--  BluetoothChat -->
+    <string name="send">Enviar</string>
+    <string name="not_connected">No estas conectado al dispositivo</string>
+    <string name="bt_not_enabled_leaving">Bluetooth no activado.</string>
+    <string name="title_connecting">Conectando...</string>
+    <string name="title_connected_to">Conectado: </string>
+    <string name="title_not_connected">Desconectado</string>
+    <string name="connected_to">Conectado a </string>
+    <string name="unable_connect">Imposible conectar al dispositivo</string>
+    <string name="connection_lost">Conexion perdida con el dispositivo</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">Buscando dispositivos...</string>
+    <string name="select_device">Seleccionar un dispositivo</string>
+    <string name="none_paired">No hay dispositivos emparejados</string>
+    <string name="none_found">No se han encontrado dispositivos</string>
+    <string name="title_paired_devices">Dispositivos emparejados</string>
+    <string name="title_other_devices">Otros dispositivos disponibles</string>
+    <string name="button_scan">Buscar dispositivos</string>
+
+    <!-- Options Menu -->
+    <string name="connect">Conectar al dispositivo</string>
+    <string name="disconnect">Desconectar</string>
+    <string name="use_accelerometer">Utilizar el acelerometro</string>
+    <string name="use_accelerometer_cancel">Parar de utilizar el acelerometro</string>
+    <string name="exit">Salir</string>
+    <string name="speech">Movimientos por voz</string>
+    <string name="speech_cancel">Cancelar voz</string>
+    <string name="command_history">Historial de comandos</string>
+    <string name="voice_commands">Comandos por voz</string>
+    <string name="settings">Ajustes</string>
+    
+    <!-- Main View -->
+    <string name="battery">Bateria</string>
+    <string name="meter">metros</string>
+    <string name="feet">pies</string>
+    <string name="software_version">Version del Software : </string>
+    <string name="firmware_version">Version del Firmware : </string>
+    
+    <!-- Settings -->
+    <string name="temperature">Temperatura</string>
+    <string name="temperature_alarm">Alarma de temperatura</string>
+    <string name="temperature_max">Temperatura maxima</string>
+    <string name="temperature_min">Temperatura mínima</string>
+    <string name="altitude">Altitud</string>
+    <string name="altitude_alarm">Alarma de altitud</string>
+    <string name="altitude_max">Altitud maxima</string>
+    <string name="pressure">Presion</string>
+    <string name="pressure_alarm">Alarma de presion</string>
+    <string name="pressure_max">Presion maxima</string>
+</resources>

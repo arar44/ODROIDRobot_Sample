@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen   xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/temperature">
+  		<CheckBoxPreference
+    		android:key="temperature_alarm"
+      		android:title="@string/temperature_alarm"
+      		android:persistent="true"
+      		android:defaultValue="false" />
+      	<ListPreference android:key="temperature_min"
+    		android:title="@string/temperature_min"
+    		android:dialogTitle="@string/temperature_min"
+    		android:dependency="temperature_alarm"
+    		android:persistent="true"
+    		android:entries="@array/temperature_min_options"  
+    		android:entryValues="@array/temperature_min_values" />
+		<ListPreference android:key="temperature_max"
+    		android:title="@string/temperature_max"
+    		android:dialogTitle="@string/temperature_max"
+    		android:dependency="temperature_alarm"
+    		android:persistent="true"
+    		android:entries="@array/temperature_max_options"  
+    		android:entryValues="@array/temperature_max_values" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/altitude">
+  		<CheckBoxPreference
+    		android:key="altitude_alarm"
+      		android:title="@string/altitude_alarm"
+      		android:persistent="true"
+      		android:defaultValue="false" />
+		<ListPreference android:key="altitude_max"
+    		android:title="@string/altitude_max"
+    		android:dialogTitle="@string/altitude_max"
+    		android:dependency="altitude_alarm"
+    		android:persistent="true"
+    		android:entries="@array/altitude_max_options"  
+    		android:entryValues="@array/altitude_max_values" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/pressure">
+  		<CheckBoxPreference
+    		android:key="pressure_alarm"
+      		android:title="@string/pressure_alarm"
+      		android:persistent="true"
+      		android:defaultValue="false" />
+		<ListPreference android:key="pressure_max"
+    		android:title="@string/pressure_max"
+    		android:dialogTitle="@string/pressure_max"
+    		android:dependency="pressure_alarm"
+    		android:persistent="true"
+    		android:entries="@array/pressure_max_options"  
+    		android:entryValues="@array/pressure_max_values" />
+	</PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ODROID Robot</string>
+
+    <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+    <string name="connected_to">Connected to </string>
+    <string name="unable_connect">Unable to connect device</string>
+    <string name="connection_lost">Device connection was lost</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="connect">Connect device</string>
+    <string name="disconnect">Disconnect device</string>
+    <string name="use_accelerometer">Use accelerometer</string>
+    <string name="use_accelerometer_cancel">Stop use accelerometer</string>
+    <string name="exit">Exit</string>
+    <string name="speech">Speech</string>
+    <string name="speech_cancel">Speech cancel</string>
+    <string name="command_history">Command history</string>
+    <string name="voice_commands">Voice commands</string>
+    <string name="settings">Settings</string>
+    
+    <!-- Korean characters -->
+    <string name="left_korean">왼쪽</string>
+    <string name="right_korean">오른쪽</string>
+    <string name="move_korean">이동</string>
+    <string name="rotate_korean">회전</string>
+    <string name="run_korean">전진</string>
+    <string name="back_korean">후진</string>
+    <string name="stop_korean">정지</string>
+    
+    <!-- Main View -->
+    <string name="battery">Battery</string>
+    <string name="meter">meter</string>
+    <string name="feet">feet</string>
+    <string name="software_version">Software Version : </string>
+    <string name="firmware_version">Firmware Version : </string>
+    
+    <!-- Settings -->
+    <string name="temperature">Temperature</string>
+    <string name="temperature_alarm">Temperature alarm</string>
+    <string name="temperature_max">Max temperature</string>
+    <string name="temperature_min">Min temperature</string>
+    <string name="altitude">Altitude</string>
+    <string name="altitude_alarm">Altitude alarm</string>
+    <string name="altitude_max">Max altitude</string>
+    <string name="pressure">Pressure</string>
+    <string name="pressure_alarm">Pressure alarm</string>
+    <string name="pressure_max">Max pressure</string>
+</resources>

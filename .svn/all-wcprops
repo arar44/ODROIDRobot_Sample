@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/accessory/!svn/ver/81/trunk/ODROIDRobot
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/accessory/!svn/ver/57/trunk/ODROIDRobot/default.properties
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/accessory/!svn/ver/69/trunk/ODROIDRobot/AndroidManifest.xml
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/accessory/!svn/ver/35/trunk/ODROIDRobot/.project
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/accessory/!svn/ver/2/trunk/ODROIDRobot/README
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/accessory/!svn/ver/2/trunk/ODROIDRobot/.classpath
+END

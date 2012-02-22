@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/linearLayout1"
+		android:orientation="vertical" android:layout_marginRight="10dp" 
+		android:layout_marginTop="10dp" android:layout_marginLeft="10dp">
+		<TextView  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:id="@+id/text_view" android:text="@string/battery"/>
+	    
+	    <ProgressBar
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/progress_bar"
+			android:progress="0"
+			android:max="100"
+			style="?android:attr/progressBarStyleHorizontal"
+	    	android:layout_marginTop="10dp" 
+	    	android:layout_marginBottom="10dp"/>
+
+		<LinearLayout android:layout_weight="1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginRight="20dp" android:gravity="right">
+			<TextView android:gravity="right" android:layout_height="wrap_content" android:width="60dp" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView_temperature_c" android:layout_marginRight="10dp" android:layout_width="wrap_content" android:layout_marginLeft="10dp"></TextView> 
+			<TextView android:gravity="center" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="°C" android:id="@+id/textView3" android:layout_width="wrap_content"></TextView>
+			<TextView android:gravity="right" android:layout_height="wrap_content" android:width="60dp" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView_temperature_f" android:layout_marginRight="10dp" android:layout_width="wrap_content" android:layout_marginLeft="10dp"></TextView>
+			<TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="°F" android:id="@+id/textView3_1" android:layout_width="wrap_content"></TextView>
+		</LinearLayout>
+		<LinearLayout android:layout_weight="1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginRight="20dp" android:gravity="right">
+			<TextView android:gravity="right" android:layout_height="wrap_content" android:width="200dp" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView_pressure" android:layout_marginRight="10dp" android:layout_width="wrap_content" android:layout_marginLeft="10dp"></TextView>
+			<TextView android:gravity="center" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="hPa" android:id="@+id/textView4" android:layout_width="wrap_content"></TextView>
+		</LinearLayout>
+		<LinearLayout android:layout_weight="1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="horizontal" android:layout_marginRight="20dp" android:gravity="right" android:paddingBottom="5dip">
+			<TextView android:gravity="right" android:layout_height="wrap_content" android:width="60dp" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView_altitude" android:layout_marginRight="10dp" android:layout_width="wrap_content" android:layout_marginLeft="10dp"></TextView>
+			<TextView android:gravity="center" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/meter" android:layout_width="wrap_content"></TextView>
+			<TextView android:gravity="right" android:layout_height="wrap_content" android:width="60dp" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView_altitude_feet" android:layout_marginRight="10dp" android:layout_width="wrap_content" android:layout_marginLeft="10dp"></TextView>
+			<TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/feet" android:id="@+id/textView" android:layout_width="wrap_content"></TextView>
+		</LinearLayout>
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="200dp" android:id="@+id/linearLayout2"
+			android:layout_weight="1" android:layout_gravity="bottom"
+			android:gravity="bottom">
+			<com.hardkernel.android.ODROIDRobot.MainView
+				android:layout_width="fill_parent" android:id="@+id/MotorControlMainView"
+				android:soundEffectsEnabled="true" android:layout_height="200dip">
+			</com.hardkernel.android.ODROIDRobot.MainView>
+		</LinearLayout>
+		<ImageView
+		    android:layout_width="wrap_content"
+		  	android:layout_height="wrap_content"
+		  	android:paddingTop="5dip"
+		  	android:maxWidth="200px"
+		  	android:adjustViewBounds="true"
+		  	android:src="@drawable/odroidlogo2nd1" android:layout_gravity="center" android:layout_marginTop="10dp"/>
+		<TextView  
+			android:id="@+id/textView_sw_version"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:gravity="center"/>
+		<TextView  
+			android:id="@+id/textView_fw_version"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:gravity="center"/>
+		<TextView  
+			android:id="@+id/textView_hardkernel"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="www.hardkernel.com"
+		    android:gravity="center"
+		    android:textAppearance="?android:attr/textAppearanceLarge"/>
+	</LinearLayout>
+</LinearLayout>

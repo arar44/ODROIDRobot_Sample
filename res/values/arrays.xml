@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	    
+	<string-array name="temperature_min_options">
+       	<item>-40ºC</item>
+       	<item>-35ºC</item>
+    	<item>-30ºC</item>
+    	<item>-25ºC</item>
+    	<item>-20ºC</item>
+    	<item>-15ºC</item>
+    	<item>-10ºC</item>
+    	<item>-5ºC</item>
+    	<item>0ºC</item>
+    	<item>5ºC</item>
+    	<item>10ºC</item>
+    	<item>15ºC</item>
+    	<item>20ºC</item>
+    	<item>25ºC</item>
+    </string-array>
+    	
+    <string-array name="temperature_min_values">    
+    	<item>-40</item>
+       	<item>-35</item>
+    	<item>-30</item>
+    	<item>-25</item>
+    	<item>-20</item>
+    	<item>-15</item>
+    	<item>-10</item>
+    	<item>-5</item>
+    	<item>0</item>
+    	<item>5</item>
+    	<item>10</item>
+    	<item>15</item>
+    	<item>20</item>
+    	<item>25</item>
+    </string-array>
+	       	
+	<string-array name="temperature_max_options">
+       	<item>0ºC</item>
+       	<item>5ºC</item>
+    	<item>10ºC</item>
+    	<item>15ºC</item>
+    	<item>20ºC</item>
+    	<item>25ºC</item>
+    	<item>30ºC</item>
+    	<item>35ºC</item>
+    	<item>40ºC</item>
+    	<item>45ºC</item>
+    	<item>50ºC</item>
+    	<item>60ºC</item>
+    	<item>70ºC</item>
+    	<item>85ºC</item>
+    </string-array>
+    	
+    <string-array name="temperature_max_values">    
+    	<item>0</item>
+    	<item>5</item>
+    	<item>10</item>
+    	<item>15</item>
+    	<item>20</item>
+    	<item>25</item>
+    	<item>30</item>
+    	<item>35</item>
+    	<item>40</item>
+    	<item>45</item>
+    	<item>50</item>
+    	<item>60</item>
+    	<item>70</item>
+    	<item>85</item>
+    </string-array>
+    
+    <string-array name="altitude_max_options">
+    	<item>100 metres</item>
+    	<item>200 metres</item>
+    	<item>300 metres</item>
+    	<item>400 metres</item>
+       	<item>500 metres</item>
+       	<item>750 metres</item>
+    	<item>1000 metres</item>
+    	<item>1500 metres</item>
+    	<item>2000 metres</item>
+    	<item>2500 metres</item>
+    	<item>3000 metres</item>
+    	<item>4000 metres</item>
+    	<item>5000 metres</item>
+    	<item>6000 metres</item>
+    	<item>7000 metres</item>
+    	<item>8000 metres</item>
+    </string-array>
+    	
+    <string-array name="altitude_max_values">    
+    	<item>100</item>
+    	<item>200</item>
+    	<item>300</item>
+    	<item>400</item>
+       	<item>500</item>
+       	<item>750</item>
+    	<item>1000</item>
+    	<item>1500</item>
+    	<item>2000</item>
+    	<item>2500</item>
+    	<item>3000</item>
+    	<item>4000</item>
+    	<item>5000</item>
+    	<item>6000</item>
+    	<item>7000</item>
+    	<item>8000</item>
+    </string-array>
+    
+    <string-array name="pressure_max_options">
+    	<item>1100 hPa</item>
+    	<item>1050 hPa</item>
+    	<item>1000 hPa</item>
+    	<item>975 hPa</item>
+    	<item>950 hPa</item>
+    	<item>925 hPa</item>
+    	<item>900 hPa</item>
+    	<item>850 hPa</item>
+    	<item>800 hPa</item>
+    	<item>700 hPa</item>
+    	<item>600 hPa</item>
+    	<item>500 hPa</item>
+    	<item>400 hPa</item>
+    </string-array>
+    	
+    <string-array name="pressure_max_values">
+    	<item>1100</item>
+    	<item>1050</item>
+    	<item>1000</item>
+    	<item>975</item>
+    	<item>950</item>
+    	<item>925</item>
+    	<item>900</item>
+    	<item>850</item>
+    	<item>800</item>
+    	<item>700</item>
+    	<item>600</item>
+    	<item>500</item>
+    	<item>400</item>
+    </string-array>
+       	
+</resources>
